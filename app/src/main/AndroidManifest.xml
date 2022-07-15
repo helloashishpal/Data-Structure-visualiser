@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ashish.visualizeds">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VisualizeDS"
+        tools:targetApi="31">
+        <activity
+            android:name="com.ashish.visualizeds.topics.binary_search_tree.binary_search_tree_basics.deletion.BinarySearchTreeDeletionVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.binary_search_tree.traversal.prefix.BinarySearchPrefixTreeVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.binary_search_tree.traversal.postfix.BinarySearchPostfixTreeVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.binary_search_tree.traversal.infix.BinarySearchInfixTreeVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.binary_search_tree.binary_search_tree_basics.insertion.BinarySearchInsertionTreeVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.doubly_linked_list.doubly_linked_list_basics.traversal.DoublyLinkedListTraversalVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.doubly_linked_list.doubly_linked_list_basics.insertion.DoublyLinkedListInsertionVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.doubly_linked_list.doubly_linked_list_basics.deletion.DoublyLinkedListDeletionVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.linked_list.linked_list_basics.deletion.LinkedListDeletionVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.linked_list.linked_list_basics.traversal.LinkedListTraversalVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.linked_list.linked_list_basics.insertion.LinkedListInsertionVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.array.sorting.insertion_sort.InsertionSortVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.array.sorting.selection_sort.SelectionSortVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.array.searching.linear_search.LinearSearchVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.array.searching.binary_search.BinarySearchVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.activity.DataStructureAlgorithmTheoryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.topics.array.sorting.bubble_sort.BubbleSortVisualizerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.activity.DataStructureTopicActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.activity.DataStructureAlgorithmActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ashish.visualizeds.activity.DataStructureActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

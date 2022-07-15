@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    Defaults-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+<!--    color Pallets-->
+    <color name="plump_purple">#5F4BB6</color>
+    <color name="cedar_orange">#D5573B</color>
+    <color name="dark_green">#002626</color>
+    <color name="saffron">#EAC435</color>
+    <color name="dark_red">#44001a</color>
+    <color name="oxford_blue">#0C1B33</color>
+    <color name="baby_pink">#E87461</color>
+    <color name="old_lace_white">#F9F4F5</color>
+    <color name="old_lace_black">#040303</color>
+    <color name="citron">#9DA936</color>
+    <color name="blood_red">#FF0035</color>
+
+</resources>
