@@ -56,8 +56,8 @@ public class LinearSearchVisualizerActivity extends AppCompatActivity {
             //Generating Visuals
             int steps = 0;
             for (int i = 0; i < arr.size(); i++) {
-                //Generating step card
                 StepCardBuilder stepCardBuilder = new StepCardBuilder(getApplicationContext());
+                //Generating step card
                 stepCardBuilder.setCardTitle(String.format("Step %d", ++steps));
                 if (arr.get(i) == target) {
                     stepCardBuilder.setCardDescription(String.format("%d is equal to %d.\nTherefore, we found the target.", arr.get(i), target));
@@ -74,6 +74,12 @@ public class LinearSearchVisualizerActivity extends AppCompatActivity {
                     return;
                 }
             }
+            StepCardBuilder stepCardBuilder = new StepCardBuilder(getApplicationContext());
+            stepCardBuilder.setCardTitle(String.format("Step %d", ++steps));
+            stepCardBuilder.setCardDescription(String.format("%d is not found in the array.",target));
+//            generateArrayView(arr, stepCardBuilder.getDataNodeHolder(), i, target);
+            binding.holderLinearLayout.addView(stepCardBuilder.getStepCard());
+
         });
     }
 

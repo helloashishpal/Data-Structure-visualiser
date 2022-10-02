@@ -68,10 +68,15 @@ public class BinarySearchVisualizerActivity extends AppCompatActivity {
                     } else {
                         stepCardBuilder.setCardDescription("Target is greater than element at the middle position.\nTherefore we eliminate left side from the middle.");
                     }
+                    if(start==end){
+                        stepCardBuilder.setCardDescription("Element is not equal to the target.\nTherefore,target is not present in the array.");
+                    }
                 }
 
                 //Generating Data for Step Card
                 generateArrayView(arr, stepCardBuilder.getDataNodeHolder(), start, end, target);
+//                if(start!=end){
+//                }
 
                 //Adding view to the holder of the Step Card
                 binding.holderLinearLayout.addView(stepCardBuilder.getStepCard());
